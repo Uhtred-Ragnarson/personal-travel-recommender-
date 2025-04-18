@@ -7,7 +7,7 @@ from datetime import datetime
 import streamlit as st
 
 # Configure your Gemini API key
-genai.configure(api_key="AIzaSyCSJDe1w2liqNJVON0W_0ffRG4chhpIo7A")  # Replace with your real key
+genai.configure(api_key="")  # Replace with your real key
 
 # Load the dataset
 data = pd.read_csv("Updated_Expanded_Destinations.csv")
