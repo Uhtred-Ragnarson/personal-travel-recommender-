@@ -7,7 +7,7 @@ import csv
 from datetime import datetime
 
 # Configure your Gemini API key
-genai.configure(api_key="AIzaSyCSJDe1w2liqNJVON0W_0ffRG4chhpIo7A")  # Replace with your real key
+genai.configure(api_key="")  # Replace with your real key
 
 # Load the dataset
 data = pd.read_csv("Updated_Expanded_Destinations.csv")
@@ -126,3 +126,4 @@ try:
     print(" Thank you for your Feedback.")
 except Exception as e:
     print(f"❌ Failed to save feedback: {e}")
+
